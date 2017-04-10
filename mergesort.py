@@ -33,8 +33,9 @@ def inversions(a,b):
             break
         if j>len(b)-1:
             break
-    return count
+        return count
 
+#Enter the location of the IntegerArray file. 
 arr_file = open("C:\Users\dell  pc\Desktop\IntegerArray.txt", "r")
 arr = map(int, arr_file.read().split())
 ck = []

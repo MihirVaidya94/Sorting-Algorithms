@@ -1,3 +1,4 @@
+#Function for swapping the two integers that are being compared
 def swap(x,y):
 	temp = x
 	x = y
